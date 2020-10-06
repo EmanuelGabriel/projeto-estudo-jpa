@@ -10,6 +10,7 @@ insert into Usuario (id, nome, login, senha, dominio_id, ultimoAcesso) values (2
 insert into Usuario (id, nome, login, senha, dominio_id, ultimoAcesso) values (3, 'Isabel da Fonseca', 'isafonseca', '454545', 2, sysdate());
 
 
+insert into configuracao(id, usuario, receberNotificacoes, encerrarSessaoAutomatica) values (1, 1, false, false);
 
 
 

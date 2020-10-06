@@ -13,7 +13,7 @@ public class TestePrincipal {
         /**
          * Configuração do EntityManager
          */
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Clientes-PU");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Projeto-JPA-PU");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
         // Realizando testes

@@ -17,7 +17,7 @@ public class ConsultasJPQL {
         /**
          * Configuração do EntityManager
          */
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Usuarios-PU");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Projeto-JPA-PU");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
         /**
